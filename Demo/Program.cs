@@ -37,6 +37,28 @@
             //else if(c1 < c2) { Console.WriteLine("c1 is < c2"); }
             //else { Console.WriteLine("c1 is Equals c2"); }
             #endregion
+            #region Casting Operator
+
+            #region Ex01
+           // Explicit Recommended
+
+            //int Y = (int)c1;
+            //Console.WriteLine(Y);
+
+
+            //-----------------------------
+            //object o1 = 5;
+            //int x=(int)o1;Explicit Casting
+            //Console.WriteLine(x); 
+            #endregion
+            #region Ex02
+            // Implicit
+
+            //string comp = c1;
+            //Console.WriteLine(comp);
+
+            #endregion
+            #endregion
             #endregion
         }
     }

@@ -70,5 +70,16 @@ namespace Demo
     };
 }
         #endregion
+        #region Casting Operator
+        public static explicit operator int (Complex C)
+        {
+            return C?.Real??0;
+        }
+        // implicit
+        public static implicit operator string(Complex C)
+        {
+            return C?.ToString() ?? string.Empty;
+        }
+        #endregion
     }
 }
