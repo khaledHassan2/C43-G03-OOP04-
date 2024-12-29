@@ -66,11 +66,16 @@
             //{
             //    Id = 1,
             //    Name = "khaled",
-            //    Email="khhaa@gmale",
-            //    Password="effdsdv",
-            //    SecurityStmp= Guid.NewGuid(),
+            //    Email = "khhaa@gmale",
+            //    Password = "effdsdv",
+            //    SecurityStmp = Guid.NewGuid(),
             //};
-            //UserViewModel userViewModel = new UserViewModel(User user);
+            //UserViewModel userViewModel = (UserViewModel) user;
+            //Console.WriteLine(userViewModel.Fname);
+            //Console.WriteLine(userViewModel.Lname);
+            //Console.WriteLine(userViewModel.Emale);
+            //Console.WriteLine(userViewModel.Password);
+            //Console.WriteLine(userViewModel.SecurityStmp);
             #endregion
 
             #region Abstraction
