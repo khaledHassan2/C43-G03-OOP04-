@@ -40,7 +40,7 @@
             #region Casting Operator
 
             #region Ex01
-           // Explicit Recommended
+            // Explicit Recommended
 
             //int Y = (int)c1;
             //Console.WriteLine(Y);
@@ -59,6 +59,22 @@
 
             #endregion
             #endregion
+            #endregion
+
+            #region Business Need For Operator Overlaoding
+            //User user = new User()
+            //{
+            //    Id = 1,
+            //    Name = "khaled",
+            //    Email="khhaa@gmale",
+            //    Password="effdsdv",
+            //    SecurityStmp= Guid.NewGuid(),
+            //};
+            //UserViewModel userViewModel = new UserViewModel(User user);
+            #endregion
+
+            #region Abstraction
+
             #endregion
         }
     }
