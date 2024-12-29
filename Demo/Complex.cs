@@ -26,5 +26,25 @@ namespace Demo
             return new Complex() { Real = (l?.Real ?? 0 - r?.Real ?? 0), Imge = (l?.Imge ?? 0 - r?.Imge ?? 0) };
         }
         #endregion
+        #region Unary Operators
+        public static Complex operator ++(Complex C)
+        {
+            return new Complex()
+            { 
+                Real = (C?.Real ?? 0 )+1,
+                Imge= (C?.Imge ?? 0) 
+
+            };
+        }
+        public static Complex operator --(Complex C)
+        {
+            return new Complex()
+            {
+                Real = (C?.Real ?? 0) - 1,
+                Imge = (C?.Imge ?? 0)
+
+            };
+        }
+        #endregion
     }
 }
