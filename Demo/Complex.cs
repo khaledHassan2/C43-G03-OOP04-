@@ -46,5 +46,29 @@ namespace Demo
             };
         }
         #endregion
+        #region Relational Operators
+        public static bool operator >(Complex l,Complex r)
+        {
+           
+            {
+               if(l?.Real==r?.Real)
+                return l.Imge > r.Imge;
+               else 
+                return l.Real > r.Real;
+
+            };
+        }
+    public static bool operator <(Complex l, Complex r)
+    {
+       
+        {
+               if (l?.Real == r?.Real)
+            return l.Imge < r.Imge;
+        else
+            return l.Real < r.Real;
+
+    };
+}
+        #endregion
     }
 }
