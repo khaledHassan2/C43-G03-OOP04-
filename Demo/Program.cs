@@ -82,13 +82,14 @@ namespace Demo
             #endregion
 
             #region Abstraction
-            Rect rect = new Rect() { Dim1=10,Dim2=20};
-            decimal rectArea=rect.CalcArea();
-            decimal peri = rect.perimeter;
-            Console.WriteLine(rectArea);
-            Console.WriteLine($"perim{peri}");
+            //Rect rect = new Rect() { Dim1=10,Dim2=20};
+            //decimal rectArea=rect.CalcArea();
+            //decimal peri = rect.perimeter;
+            //Console.WriteLine(rectArea);
+            //Console.WriteLine($"perim{peri}");
 
             #endregion
+
         }
     }
 }
