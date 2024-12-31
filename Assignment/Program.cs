@@ -22,6 +22,15 @@ namespace Assignment
             //Point3D P = new Point3D(10, 10, 10);
             //Console.WriteLine(P.ToString());
             #endregion
+            #region Q3) Read from the User the Coordinates for 2 points P1, P2 (Check the input using try Pares, Parse, Convert).
+
+
+            //Point3D P1 = Point3D.ReadFromUser("P1");
+            //Point3D P2 = Point3D.ReadFromUser("P2");
+
+            //Console.WriteLine($"P1: {P1}");
+            //Console.WriteLine($"P2: {P2}");
+            #endregion
         }
     }
 }
