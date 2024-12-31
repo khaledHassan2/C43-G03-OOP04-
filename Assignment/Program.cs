@@ -17,6 +17,11 @@ namespace Assignment
             //Point3D point3 = new Point3D(1, 2, 3);
             //Console.WriteLine($"p3{point3}"); 
             #endregion
+            #region Q2)Override the ToString Function to produce this output:
+
+            //Point3D P = new Point3D(10, 10, 10);
+            //Console.WriteLine(P.ToString());
+            #endregion
         }
     }
 }

@@ -12,7 +12,6 @@ namespace Assignment.NewFolder
         public double Y { get; set; }
         public double Z { get; set; }
 
-        
         public Point3D() : this(0, 0, 0) { }
 
         public Point3D(double x, double y) : this(x, y, 0) { }
@@ -26,8 +25,9 @@ namespace Assignment.NewFolder
 
         public override string ToString()
         {
-            return $"Point({X}, {Y}, {Z})";
+            return $"Point Coordinates: ({X}, {Y}, {Z})";
         }
+
 
     }
 }
