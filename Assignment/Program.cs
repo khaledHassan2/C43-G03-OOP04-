@@ -44,6 +44,31 @@ namespace Assignment
             //else
             //    Console.WriteLine("P1 and P2 are not equal.");
             #endregion
+            #region Q5)Define an array of points and sort this array based on X & Y coordinates.
+
+            //     Point3D[] points = new Point3D[]
+            //{
+            //     new Point3D(5, 2, 1),
+            //     new Point3D(3, 4, 7),
+            //     new Point3D(5, 1, 3),
+            //     new Point3D(1, 6, 9),
+            //     new Point3D(3, 4, 2)
+            //};
+
+            //     Console.WriteLine("Original Points:");
+            //     foreach (var point in points)
+            //     {
+            //         Console.WriteLine(point);
+            //     }
+
+            //     var sortedPoints = points.OrderBy(p => p.X).ThenBy(p => p.Y).ToArray();
+
+            //     Console.WriteLine("\nSorted Points (by X, then by Y):");
+            //     foreach (var point in sortedPoints)
+            //     {
+            //         Console.WriteLine(point);
+            //     }
+            #endregion
         }
     }
 }
