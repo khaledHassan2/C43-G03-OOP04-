@@ -69,6 +69,41 @@ namespace Assignment
             //         Console.WriteLine(point);
             //     }
             #endregion
+            #region Q6)Implement ICloneable interface to be able to clone the object.To implement more than one interface.class Point3D : IComparable, ICloneable
+       //     Point3D[] points = new Point3D[]
+       //{
+       //     new Point3D(5, 2, 1),
+       //     new Point3D(3, 4, 7),
+       //     new Point3D(5, 1, 3),
+       //     new Point3D(1, 6, 9),
+       //     new Point3D(3, 4, 2)
+       //};
+
+       //     Console.WriteLine("Original Points:");
+       //     foreach (var point in points)
+       //     {
+       //         Console.WriteLine(point);
+       //     }
+
+       //     Array.Sort(points);
+
+       //     Console.WriteLine("\nSorted Points (by X, then by Y, then by Z):");
+       //     foreach (var point in points)
+       //     {
+       //         Console.WriteLine(point);
+       //     }
+
+       //     Point3D original = new Point3D(7, 8, 9);
+       //     Point3D cloned = (Point3D)original.Clone();
+
+       //     Console.WriteLine("\nOriginal Point:");
+       //     Console.WriteLine(original);
+
+       //     Console.WriteLine("\nCloned Point:");
+       //     Console.WriteLine(cloned);
+
+       //     Console.WriteLine($"\nAre Original and Cloned the same reference? {ReferenceEquals(original, cloned)}");
+            #endregion
         }
     }
 }

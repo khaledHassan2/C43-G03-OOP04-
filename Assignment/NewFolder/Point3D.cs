@@ -7,7 +7,7 @@ using static System.Formats.Asn1.AsnWriter;
 
 namespace Assignment.NewFolder
 {
-    internal class Point3D
+    public class Point3D : IComparable<Point3D>, ICloneable
     {
         public double X { get; private set; }
         public double Y { get; private set; }
@@ -27,5 +27,22 @@ namespace Assignment.NewFolder
             return $"Point Coordinates: ({X}, {Y}, {Z})";
         }
 
+        public int CompareTo(Point3D other)
+        {
+            if (other == null) return 1;
+
+            if (X != other.X)
+                return X.CompareTo(other.X);
+
+            if (Y != other.Y)
+                return Y.CompareTo(other.Y);
+
+            return Z.CompareTo(other.Z);
+        }
+
+        public object Clone()
+        {
+            return new Point3D(X, Y, Z);
+        }
     }
 }
