@@ -31,6 +31,19 @@ namespace Assignment
             //Console.WriteLine($"P1: {P1}");
             //Console.WriteLine($"P2: {P2}");
             #endregion
+            #region Q4)Try to use == If(P1 == P2)   Does it work properly? 
+
+            //Point3D P1 = Point3D.ReadFromUser("P1");
+            //Point3D P2 = Point3D.ReadFromUser("P2");
+
+            //Console.WriteLine($"P1: {P1}");
+            //Console.WriteLine($"P2: {P2}");
+
+            //if (P1 == P2)
+            //    Console.WriteLine("P1 and P2 are equal.");
+            //else
+            //    Console.WriteLine("P1 and P2 are not equal.");
+            #endregion
         }
     }
 }
