@@ -1,4 +1,7 @@
-﻿namespace Demo
+﻿using Demo.Abstraction;
+using System.Drawing;
+
+namespace Demo
 {
     internal class Program
     {
@@ -6,8 +9,8 @@
         {
             #region Overloading Opertors
             #region Binary Operators
-            Complex c1 = new Complex() { Real = 2, Imge = 4 };
-            Complex c2 = new Complex() { Real = 3, Imge = 5 };
+            ////Complex c1 = new Complex() { Real = 2, Imge = 4 };
+            ////Complex c2 = new Complex() { Real = 3, Imge = 5 };
             ////Complex c3 = c1 + c2;
             ////Console.WriteLine(c1);
             ////Console.WriteLine(c2);
@@ -79,6 +82,11 @@
             #endregion
 
             #region Abstraction
+            Rect rect = new Rect() { Dim1=10,Dim2=20};
+            decimal rectArea=rect.CalcArea();
+            decimal peri = rect.perimeter;
+            Console.WriteLine(rectArea);
+            Console.WriteLine($"perim{peri}");
 
             #endregion
         }
